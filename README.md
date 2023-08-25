@@ -3,4 +3,4 @@
 
  Estou aprendendo a criar sites e agora vou gerenciar meus repositorio!
 
-<a href="https://arthurvergani-code.github.io/html-css/desafio/d010/android.html">Executar o Desafio 010</a>
+<a href="https://arthurvergani-code.github.io/html-css/exercicio/ex001/index.html">Executar o Desafio 010</a>
