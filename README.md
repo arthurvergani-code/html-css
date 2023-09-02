@@ -6,12 +6,15 @@
 
 Projetos
 
-<a href="https://arthurvergani-code.github.io/projeto-android">Projeto Android<a>
-
-<a href="https://arthurvergani-code.github.io/projeto-cordel">Projeto Cordel<a>
-
+<ul>
+    <li>
+    <a href="https://arthurvergani-code.github.io/projeto-android/">Projeto Android</a>
+    </li>
+    <li>
+    <a href="https://arthurvergani-code.github.io/projeto-cordel/">Projeto Cordel</a>
+    </li>
+</ul>
 <hr>
 
 
-
-<a href="https://github.com/arthurvergani-code">Repositorios<a>
+<a href="https://github.com/arthurvergani-code">Repositorios</a>
