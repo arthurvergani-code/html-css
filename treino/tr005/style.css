@@ -1,0 +1,142 @@
+@font-face {
+    font-family: Padrao;
+    src: url("results-summary-component-main/assets/fonts/HankenGrotesk-VariableFont_wght.ttf");
+}
+
+body {
+    font-family: Padrao;
+}
+
+main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.315);
+}
+
+
+
+.c {
+    color: hsl(241, 100%, 89%);
+}
+
+p {
+    font-size: 18px;
+}
+
+section.resultado {
+    background-image: linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    border-radius: 20px;
+    padding: 8px;
+    color: white;
+    text-align: center;
+    min-width: 300px;
+    padding-top: 80px;
+}
+
+.num {
+    font-size: 3em;
+    font-weight: bolder;
+}
+
+section.resumo {
+    padding: 20px;
+}
+
+.circlo {
+    background-image: linear-gradient(to bottom, hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.267);
+}
+
+.circlo > p {
+   margin: -5px;
+   
+}
+
+
+.destaque {
+    font-weight: bolder;
+    font-size: 1.7em;
+}
+
+.categoria1, .categoria2, .categoria3, .categoria4 {
+    display: flex;
+    justify-content: space-between;
+    background-color: #f0f0f0;
+    min-width: 250px;
+    padding: 0px 5px;
+    margin: 5px;
+    border-radius: 7px;
+}
+
+.categoria1 {
+    color: hsl(0, 100%, 67%);
+}
+
+.categoria2 {
+    color: hsl(39, 100%, 56%);
+}
+
+.categoria3 {
+    color: hsl(166, 100%, 37%);
+}
+
+.categoria4 {
+    color: hsl(234, 85%, 45%);
+}
+
+.cnum {
+    color: hsl(224, 30%, 27%);
+    font-weight: bolder;
+
+}
+
+button {
+    border: none;
+    background-color: hsl(224, 30%, 27%);
+    padding: 10px;
+    width: 250px;
+    height: 50px;
+    border-radius: 30px;
+    
+}
+
+.b {
+    text-align: center;
+    margin: 10px;
+}
+
+a {
+    color: white;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+@media (max-width: 660px) {
+    main {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: auto;
+        width: 96.7vw;
+    }
+    
+    section.resultado {
+        border-radius: 0px 0px 20px 20px;
+    }
+
+
+}
+
+
